@@ -1,0 +1,142 @@
+/* === General Styles === */
+body {
+  background-color: #101218;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding-bottom: 100px; /* Prevent content from hiding under fixed footer */
+}
+
+/* === Top Navigation === */
+.Uppernavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.navbar-elements {
+  display: flex;
+  gap: 5px;
+}
+
+.navbar-elements a {
+  color: #e9e9e9;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.navbar-elements a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* === Main Section === */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#main-logo {
+  margin-bottom: 25px;
+}
+
+#main-logo p {
+  font-size: 90px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+.search-bar form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input {
+  width: 500px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+  background-color: #3f4454;
+  border: none;
+  color: #ffffff;
+}
+
+.search-button {
+  padding: 8px 16px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #3f4454;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.search-button:hover {
+  border: solid 1px #ffffff;
+}
+
+/* === Footer Styles === */
+footer {
+  background-color: #1f2128;
+  color: #ffffff;
+  padding: 10px 25px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Country name */
+.country-name {
+  display: flex;
+  align-items: flex-start;
+  background-color: #1f2128;
+  text-align: left;
+  color: #ffffff;
+  border-bottom: 0.5px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+.country-name p {
+  padding-left: 10px;
+  font-size: small;
+  margin: 5px 0;
+}
+
+/* Footer nav container */
+.lower-navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  border-top: 1px solid #333;
+}
+
+/* Footer nav links */
+.lower-navbar-elements {
+  display: flex;
+  gap: 15px;
+}
+
+.lower-navbar-elements a {
+  color: #e9e9e9;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.lower-navbar-elements a:hover {
+  color: #ffffff;
+  background-color: #2a2d36;
+  text-decoration: underline;
+}
